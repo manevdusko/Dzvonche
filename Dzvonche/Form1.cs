@@ -11,11 +11,13 @@ using System.IO.Ports;
 using WMPLib;
 using sun.tools.java;
 using AxWMPLib;
+using System.Diagnostics;
 
 namespace Dzvonche
 {
     public partial class Form1 : Form
     {
+        bool sabota = false;
         String[] paths, files;
         bool isConnected = false;
         String[] ports;
@@ -113,6 +115,7 @@ namespace Dzvonche
                 min5.Visible = true;
                 comboBox1.Visible = true;
                 povrzi.Visible = true;
+                checkBox1.Visible = true;
                 settings.Text = "Сокриј";
                 opcii = 1;
             }
@@ -128,9 +131,15 @@ namespace Dzvonche
                 min5.Visible = false;
                 comboBox1.Visible = false;
                 povrzi.Visible = false;
+                checkBox1.Visible = false;
                 settings.Text = "Oпции";
                 opcii = 0;
             }
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            sabota = checkBox1.Checked;
         }
 
         private void soff_Click(object sender, EventArgs e)
@@ -489,7 +498,11 @@ namespace Dzvonche
         }
         public void esp8266()
         {
-            if (isConnected)
+            if (isConnected && (int)DateTime.Now.DayOfWeek != 0 && (int)DateTime.Now.DayOfWeek != 6)
+            {
+                port.Write("#1\n");
+            }
+            if (isConnected && (int)DateTime.Now.DayOfWeek == 6 && sabota)
             {
                 port.Write("#1\n");
             }
