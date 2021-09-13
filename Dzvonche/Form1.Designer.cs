@@ -108,7 +108,7 @@
             // povrzi
             // 
             this.povrzi.BackColor = System.Drawing.Color.NavajoWhite;
-            this.povrzi.Location = new System.Drawing.Point(68, 617);
+            this.povrzi.Location = new System.Drawing.Point(62, 589);
             this.povrzi.Name = "povrzi";
             this.povrzi.Size = new System.Drawing.Size(75, 23);
             this.povrzi.TabIndex = 10;
@@ -122,7 +122,7 @@
             this.comboBox1.BackColor = System.Drawing.Color.PeachPuff;
             this.comboBox1.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(13, 617);
+            this.comboBox1.Location = new System.Drawing.Point(7, 589);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(49, 21);
             this.comboBox1.TabIndex = 11;
@@ -134,7 +134,7 @@
             this.lb.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.lb.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lb.FormattingEnabled = true;
-            this.lb.Location = new System.Drawing.Point(1057, 626);
+            this.lb.Location = new System.Drawing.Point(710, 583);
             this.lb.Name = "lb";
             this.lb.Size = new System.Drawing.Size(275, 91);
             this.lb.TabIndex = 12;
@@ -145,7 +145,7 @@
             this.add.BackColor = System.Drawing.Color.NavajoWhite;
             this.add.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.add.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.add.Location = new System.Drawing.Point(93, 694);
+            this.add.Location = new System.Drawing.Point(87, 666);
             this.add.Name = "add";
             this.add.Size = new System.Drawing.Size(111, 23);
             this.add.TabIndex = 13;
@@ -205,7 +205,7 @@
             // 
             this.normal.AutoSize = true;
             this.normal.BackColor = System.Drawing.Color.NavajoWhite;
-            this.normal.Location = new System.Drawing.Point(389, 700);
+            this.normal.Location = new System.Drawing.Point(383, 672);
             this.normal.Name = "normal";
             this.normal.Size = new System.Drawing.Size(130, 17);
             this.normal.TabIndex = 20;
@@ -219,7 +219,7 @@
             // 
             this.min5.AutoSize = true;
             this.min5.BackColor = System.Drawing.Color.NavajoWhite;
-            this.min5.Location = new System.Drawing.Point(13, 648);
+            this.min5.Location = new System.Drawing.Point(7, 620);
             this.min5.Name = "min5";
             this.min5.Size = new System.Drawing.Size(130, 17);
             this.min5.TabIndex = 21;
@@ -233,7 +233,7 @@
             // 
             this.other.AutoSize = true;
             this.other.BackColor = System.Drawing.Color.NavajoWhite;
-            this.other.Location = new System.Drawing.Point(13, 671);
+            this.other.Location = new System.Drawing.Point(7, 643);
             this.other.Name = "other";
             this.other.Size = new System.Drawing.Size(73, 17);
             this.other.TabIndex = 22;
@@ -246,7 +246,7 @@
             // kolku
             // 
             this.kolku.BackColor = System.Drawing.Color.AntiqueWhite;
-            this.kolku.Location = new System.Drawing.Point(92, 670);
+            this.kolku.Location = new System.Drawing.Point(86, 642);
             this.kolku.Name = "kolku";
             this.kolku.Size = new System.Drawing.Size(51, 20);
             this.kolku.TabIndex = 23;
@@ -282,7 +282,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 694);
+            this.button1.Location = new System.Drawing.Point(6, 666);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 25;
@@ -293,7 +293,7 @@
             // 
             // s
             // 
-            this.s.Location = new System.Drawing.Point(155, 596);
+            this.s.Location = new System.Drawing.Point(149, 568);
             this.s.Name = "s";
             this.s.Size = new System.Drawing.Size(138, 23);
             this.s.TabIndex = 26;
@@ -304,7 +304,7 @@
             // 
             // soff
             // 
-            this.soff.Location = new System.Drawing.Point(155, 625);
+            this.soff.Location = new System.Drawing.Point(149, 597);
             this.soff.Name = "soff";
             this.soff.Size = new System.Drawing.Size(138, 23);
             this.soff.TabIndex = 27;
@@ -326,7 +326,7 @@
             // 
             // e1
             // 
-            this.e1.Location = new System.Drawing.Point(155, 654);
+            this.e1.Location = new System.Drawing.Point(149, 626);
             this.e1.Name = "e1";
             this.e1.Size = new System.Drawing.Size(138, 20);
             this.e1.TabIndex = 29;
@@ -341,7 +341,7 @@
             // 
             // settings
             // 
-            this.settings.Location = new System.Drawing.Point(218, 694);
+            this.settings.Location = new System.Drawing.Point(212, 666);
             this.settings.Name = "settings";
             this.settings.Size = new System.Drawing.Size(75, 23);
             this.settings.TabIndex = 30;
@@ -352,7 +352,7 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(13, 594);
+            this.checkBox1.Location = new System.Drawing.Point(7, 566);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(110, 17);
             this.checkBox1.TabIndex = 31;
