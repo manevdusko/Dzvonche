@@ -159,7 +159,7 @@
             this.panel1.BackColor = System.Drawing.Color.Linen;
             this.panel1.Controls.Add(this.smena);
             this.panel1.Controls.Add(this.raspored);
-            this.panel1.Location = new System.Drawing.Point(309, 12);
+            this.panel1.Location = new System.Drawing.Point(155, 12);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(758, 88);
             this.panel1.TabIndex = 17;
@@ -256,7 +256,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::Dzvonche1.Properties.Resources.ljupcoSantov;
-            this.pictureBox1.Location = new System.Drawing.Point(527, 165);
+            this.pictureBox1.Location = new System.Drawing.Point(404, 174);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(276, 262);
             this.pictureBox1.TabIndex = 24;
@@ -266,7 +266,7 @@
             // 
             this.panel5.BackColor = System.Drawing.Color.Linen;
             this.panel5.Controls.Add(this.kedzvone);
-            this.panel5.Location = new System.Drawing.Point(1057, 257);
+            this.panel5.Location = new System.Drawing.Point(710, 231);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(275, 75);
             this.panel5.TabIndex = 19;
@@ -317,7 +317,7 @@
             // 
             this.sl.AutoSize = true;
             this.sl.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sl.Location = new System.Drawing.Point(526, 439);
+            this.sl.Location = new System.Drawing.Point(311, 439);
             this.sl.Name = "sl";
             this.sl.Size = new System.Drawing.Size(425, 76);
             this.sl.TabIndex = 28;
@@ -364,7 +364,7 @@
             // axWindowsMediaPlayer1
             // 
             this.axWindowsMediaPlayer1.Enabled = true;
-            this.axWindowsMediaPlayer1.Location = new System.Drawing.Point(539, 145);
+            this.axWindowsMediaPlayer1.Location = new System.Drawing.Point(299, 133);
             this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
             this.axWindowsMediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer1.OcxState")));
             this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(381, 250);
@@ -376,7 +376,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Dzvonche1.Properties.Resources.ls;
-            this.ClientSize = new System.Drawing.Size(1344, 729);
+            this.ClientSize = new System.Drawing.Size(1008, 729);
+            this.ControlBox = false;
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.settings);
             this.Controls.Add(this.e1);
